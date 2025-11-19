@@ -2,7 +2,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = python -msphinx
+SPHINXBUILD   = poetry run python -msphinx
 SPHINXPROJ    = corpus1
 SOURCEDIR     = .
 BUILDDIR      = _build
